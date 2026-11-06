@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Time - Meniu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Meniul de navigare este păstrat la fel pentru o experiență unitară -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a class="logo" href="index.html">🍕 <span>Pizza Time</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="meniu.html">Meniu</a></li>
+                <li><a href="comanda.html">Comandă</a></li>
+                <li><a href="oferte.html">Oferte</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-wrap">
+        <section class="page-title">
+            <h1>Meniul nostru complet</h1>
+            <p>Alege produsele preferate și adaugă-le în coș. În această variantă, coșul este prezentat static, doar cu HTML și CSS.</p>
+        </section>
+
+        <section class="tabs">
+            <a class="tab active-tab" href="#pizza">🍕 Pizza</a>
+            <a class="tab" href="#bauturi">🥤 Băuturi</a>
+            <a class="tab" href="#deserturi">🍰 Deserturi</a>
+        </section>
+
+        <section id="pizza" class="products-grid">
+            <article class="product-card">
+                <div class="product-img pizza-one"></div>
+                <div class="product-info">
+                    <h2>Margherita</h2>
+                    <p>Roșii, mozzarella, busuioc</p>
+                    <strong>25 lei</strong>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img pizza-two"></div>
+                <div class="product-info">
+                    <h2>Quattro Formaggi</h2>
+                    <p>Patru tipuri de brânză</p>
+                    <strong>35 lei</strong>
+                    <span class="badge">Popular</span>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img pizza-three"></div>
+                <div class="product-info">
+                    <h2>Diavola</h2>
+                    <p>Salam picant, ardei, sos roșu</p>
+                    <strong>32 lei</strong>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img pizza-four"></div>
+                <div class="product-info">
+                    <h2>Prosciutto e Funghi</h2>
+                    <p>Șuncă, ciuperci, mozzarella</p>
+                    <strong>30 lei</strong>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img pizza-five"></div>
+                <div class="product-info">
+                    <h2>Capricciosa</h2>
+                    <p>Șuncă, măsline, ciuperci, ardei</p>
+                    <strong>34 lei</strong>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-img pizza-six"></div>
+                <div class="product-info">
+                    <h2>Vegetariană</h2>
+                    <p>Legume proaspete, sos de roșii</p>
+                    <strong>28 lei</strong>
+                    <a class="btn small" href="comanda.html#cos">Adaugă în coș</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="bauturi" class="simple-list">
+            <h2>Băuturi</h2>
+            <div class="mini-products">
+                <div>Apă plată <strong>5 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+                <div>Limonadă <strong>10 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+                <div>Suc natural <strong>12 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+            </div>
+        </section>
+
+        <section id="deserturi" class="simple-list">
+            <h2>Deserturi</h2>
+            <div class="mini-products">
+                <div>Tiramisu <strong>16 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+                <div>Clătite cu ciocolată <strong>14 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+                <div>Panna Cotta <strong>15 lei</strong> <a href="comanda.html#cos">Adaugă</a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Pizza Time</p>
+        <p class="disclaimer">Proiect educațional · restaurant și date de contact fictive</p>
+    </footer>
+</body>
+</html>
